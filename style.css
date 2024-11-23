@@ -38,7 +38,7 @@ body {
     display: flex;
     height: 100vh;
     width: 100%;
-    
+    overflow: hidden;
     /* margin: 0px 150px; */
     /* outline: 1px red solid; */
     
