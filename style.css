@@ -36,8 +36,8 @@ body {
 
 .container {
     display: flex;
-    height: 95%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     /* margin: 0px 150px; */
     /* outline: 1px red solid; */
     
