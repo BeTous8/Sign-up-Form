@@ -1,3 +1,6 @@
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -41,6 +44,25 @@ body {
     background-size: cover;
     color: white;
     justify-content: center;
+}
+
+.logo-container {
+    background: rgba(0, 0, 0, 0.5);
+    height: 150px;
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    height: auto;
+    width: 130px;
+    /* background-image: url(./کادوچی\ لوگو\ -\ Google\ Search.jpeg); */
+    border-radius: 100px;
+    opacity: .8;
+    
 }
 
 .img-text {
@@ -137,6 +159,7 @@ body {
 
 .form-item input:focus {
     outline: 1px rgb(1, 65, 1) solid;
+    
     /* background-color: rgb(222, 244, 222); */
 }
 
@@ -156,14 +179,16 @@ body {
     width: 200px;
     border-radius: 7px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-color: bisque;
+    background-color: rgb(166, 107, 154);
     font-size: 1rem;
     font-weight: 700;
+    color: white;
 }
 
 .btn-para {
     margin-left: 60px;
     font-size: 1.2rem;
+    
     
 }
 

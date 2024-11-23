@@ -10,6 +10,9 @@
 <body>
    <div class="container">
     <div class="container-img">
+        <div class="logo-container">
+            <img class="logo-img" src="./کادوچی لوگو - Google Search (1).jpeg">
+        </div>
         <p class="img-text">
             Photo by <a href="https://unsplash.com/@element5digital" target="_blank">Element5 Digital</a> on <a href="https://help.unsplash.com/en/" target="_blank">Unsplash</a>
         </p>
@@ -25,7 +28,7 @@
                     <div class="form-structure">
                         <div class="form-item">
                             <label for="fName">*First Name</label>
-                            <input type="text" id="fName" name="fName" placeholder="Enter your name" required pattern="^[A-Za-z]+(?:[-' ][A-Za-z]+)*$" title="Only alphabets, spaces, hyphens, or apostrophes are allowed.">
+                            <input type="text" id="fName" name="fName" pattern="^[A-Za-z]+(?:[-' ][A-Za-z]+)*$" title="Only alphabets, spaces, hyphens, or apostrophes are allowed.">
                         </div>
                         <div class="form-item">
                             <label for="lName">*Last Name</label>
@@ -37,11 +40,12 @@
                         </div>
                         <div class="form-item">
                             <label for="phone">*Phone Number</label>
-                            <input type="tel" id="phone" name="phone" required>
+                            <input type="tel" id="phone" name="phone">
                         </div>
                         <div class="form-item">
                             <label for="password">*Password</label>
-                            <input type="password" id="password" name="pass">
+                            <input type="password" id="password" name="pass" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" 
+                            title="Password must be at least 8 characters long, with at least one uppercase, one lowercase, one digit, and one special character.">
                         </div>
                         <div class="form-item">
                             <label for="Cpassword">*Confirm Password</label>
