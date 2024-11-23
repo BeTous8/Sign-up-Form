@@ -125,7 +125,7 @@ body {
 
 .form-submit {
     /* flex: 1 1 30%; */
-    height: 300px;
+    height: 250px;
     width: 100%;
     background-color: var(--top-bottom-color)
 }
